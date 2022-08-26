@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+a {
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+.navegacao li {
+    list-style-type: none;
+    font-size: 17px;
+    padding: 7px;
+}
+
+.navegacao li:hover {
+    background-color: rgb(15, 25, 20, 0.1);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.profile_edit img {
+    width: 100px;
+}
+
+.profile_edit button {
+    font-size: 13px;
+    border-radius: 8px;
+    border: 1px solid rgb(15, 25, 20, 0.1);
+    background-color: white;
+    box-shadow: 2px 2px 2px -1px rgba(15, 25, 20, 0.52);
+    -webkit-box-shadow: 2px 2px 2px -1px rgba(15, 25, 20, 0.52);
+    -moz-box-shadow: 2px 2px 2px -1px rgba(15, 25, 20, 0.52);
+}
+
+.names h2 {
+    color: rgb(15, 20, 25);
+}
+
+.names p {
+    color: rgb(80, 100, 113);
+    font-size: 15px;
+}
+
+.bio p {
+    color: rgb(15, 20, 25);
+}
+
+.bio li {
+    list-style-type: none;
+}
+
+.bio li a {
+    color: rgb(83, 100, 103);
+}
+
+.estatisticas li {
+    list-style-type: none;
+}
+
+.estatisticas a {
+    color: rgb(83, 100, 103);
+}
+
+.estatisticas a span {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.estatisticas a:hover {
+    text-decoration: underline;
+}
+
+.publicacoes a {
+    padding-right: 6px;
+    color: rgb(83, 100, 103);
+}
+
+.publicacoes a:hover {
+    background-color: rgb(15, 25, 20, 0.1);
+    border-radius: 14px 15px 14px 14px;
+    -webkit-border-radius: 14px 15px 14px 14px;
+    -moz-border-radius: 14px 15px 14px 14px;
+    border: 1px solid rgb(15, 25, 20, 0.1);
+    color: rgb(15, 20, 25);
+}
+
+.acoes a {
+    color: rgb(83, 100, 103);
+}
+
+.acoes a:hover {
+    color: rgb(15, 20, 25);
+    background-color: rgb(15, 25, 20, 0.1);
+    border-radius: 14px 15px 14px 14px;
+    -webkit-border-radius: 14px 15px 14px 14px;
+    -moz-border-radius: 14px 15px 14px 14px;
+    border: 1px solid  rgb(15, 25, 20, 0.1);
+}
+
+.tzeet:hover {
+    background-color:  rgba(22, 22, 22, 0.03);
+}
+
+.tzeets #message{
+    color: rgb(15, 20, 25);
+}
+
+.tzeets #name_date {
+    color: rgb(83, 100, 103);
+}
